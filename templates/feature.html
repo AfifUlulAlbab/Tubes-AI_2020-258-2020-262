@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas AI</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><img src="image/image/data_68_desain-logo-daun-8-removebg-preview.png" alt=""> Tugas AI </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="feature.html">feature</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home start -->
+<section class="rumah" id="rumah">
+
+</section>
+<section>
+    +
+</section>
+
+<!-- home end -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="column is-narrow">
+            </div>
+
+            <div class="column is-one-third has-text-centered">
+              <!-- <figure class="image is-1by1"> -->
+                <img class="pred_img" src="{{ url_for('send_file', filename=image_file_name)}}"/>
+              <!-- </figure> -->
+            </div>
+            <div class="column is-one-quarter" style="font-size:2.5rem" >
+  
+                    <h2 id ="pred" style="color:black">
+                        This is a <span style="font-weight: bold; color:black;">{{ label }}</span>
+                    </h2>
+
+                    <h2 style="font-size: 2rem">
+                        Confidence: <span style="font-weight: bold; color:black;">{{prob}}%</span>
+                      </h2>
+                    <br>
+                    <a href="/" class="button is-white is-inverted is-outlined" style="font-size:1.5rem">Back to Home</a>
+                </div>
+        </div>
+
+        <!-- <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>free delivery</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>easy payments</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Tugas AI <img src="image/image/data_68_desain-logo-daun-8-removebg-preview.png" alt=""> </h3>
+            <p>Selamat Menikmati Website ini</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/afifullalbb/" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="feature.html" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> dibuat oleh <span> afif (202010370311262) tito (202010370311258) </span> | Tugas Besar AI </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
